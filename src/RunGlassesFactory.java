@@ -3,12 +3,12 @@ public class RunGlassesFactory {
     RunGlassesFactory runGlasses = new RunGlassesFactory();
     }
 public RunGlassesFactory(){
-Glasses yellow;
-yellow = new Glasses("circle",255,255,0,'b',"transition");
-yellow.printInfo();
+Glasses one;
+one = new Glasses("circle",255,255,0,'l',"transition","yellow");
+one.printInfo();
 
-Glasses purple;
-purple = new Glasses("square",128,0,128,'m',"clear");
-purple.printInfo();
+Glasses two;
+two = new Glasses("square",128,0,128,'m',"clear","purple");
+two.printInfo();
 }
 }
