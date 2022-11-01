@@ -23,5 +23,7 @@ public class Glasses {
         System.out.println("The glasses are " + shape + " shaped");
         System.out.println("The glasses are size " + size);
         System.out.println("The glasses have " + lenses + " lenses");
+        System.out.println();
     }
+
 }
